@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;400;600&display=swap');
+body {
+    font-family: 'Sarabun', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: auto;
+}
+header{
+    background-image: url("./header.jpg");
+    /* height: 70px; */
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
+    /* padding-block: 25px ;
+    padding-inline: 10px; */
+    min-height: 150px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-bottom: 200px;
+}
+
+
+nav {
+    background-color: bisque;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button-group {
+     display: flex;
+     gap: 10px;
+}
+.prev{
+    font-size: 50px;
+}
+.button-group > button{
+    border: none;
+    border-radius: 20%;
+    padding: 20px;
+    background-color: rgb(255, 159, 124);
+    font-size: large;
+}
+.welcome{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+.select-header{
+    font-size: 35px;
+    text-align: center;
+}
+.item-row{
+    /* margin-top: 30px; */
+    background-color: beige ;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.item1,.item2{
+    padding-top: 45px;
+    border-radius: 100%;
+    width: 230px;
+    height: 185px;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
